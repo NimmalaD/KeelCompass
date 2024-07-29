@@ -18,13 +18,11 @@ function App() {
     <BrowserRouter>
 
       <Routes>
-
         <Route path="/signin" element={<SignIn />}/>
         <Route path="/signup" element={<SignUp />}/>
         <Route path="/faq" element={<FAQ />}/>
-
       </Routes>
-
+      
     </BrowserRouter>
     </div>
     <Footer/>
