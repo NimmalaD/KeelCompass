@@ -12,7 +12,9 @@ function App() {
 
   return (
     <>
+     <div className="app-container">
     <NavBar/>
+    <div className="content">
     <BrowserRouter>
 
       <Routes>
@@ -24,7 +26,9 @@ function App() {
       </Routes>
 
     </BrowserRouter>
+    </div>
     <Footer/>
+    </div>
     </>
   )
 }
